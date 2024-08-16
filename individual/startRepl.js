@@ -11,7 +11,7 @@ const repl = require('repl');
 const fs = require('fs');
 const path = require('path');
 
-const scripts = ['./getUserFactors-morales-3.js'];
+const scripts = ['./getUserFactors-morales-3.js', './array_demo.js'];
 
 const loadFunctions = () => {
     scripts.forEach(script => {
